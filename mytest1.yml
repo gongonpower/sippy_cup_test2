@@ -1,0 +1,15 @@
+---
+filename: ./scenario
+steps:
+  - invite
+  - wait_for_answer
+  - ack_answer
+  - sleep 12
+  - send_digits '2'
+  - sleep 3
+  - send_digits '7356024#'
+  - sleep 20
+  - send_digits '1'
+  - sleep 5
+  - hangup
+
